@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#container{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.row{
+    display: flex;
+    flex: 1;
+}
+
+.cell{
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.hover{
+    background-color: black;
+}
